@@ -76,7 +76,7 @@ export default function FreshnessTimeline({ job }) {
                 <span className="text-xs text-gray-500 mt-1 whitespace-nowrap">
                   {formatShort(evt.date)}
                 </span>
-                <span className="text-xs font-medium text-gray-700 mt-0.5 whitespace-nowrap max-w-[100px] truncate text-center">
+                <span className="text-xs font-medium text-gray-700 mt-0.5 whitespace-nowrap max-w-[100px] truncate text-center" title={evt.label}>
                   {evt.label}
                 </span>
               </div>
