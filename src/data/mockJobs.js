@@ -25,6 +25,7 @@ const mockJobs = [
       'Bonus: payments/fintech background',
     ],
     applicantCount: 87,
+    applyUrl: 'https://stripe.com/jobs',
     activityEvents: [
       { type: 'posted', date: daysAgo(12), label: 'Job posted' },
       { type: 'recruiter_viewed', date: daysAgo(5), label: 'Recruiter viewed applications' },
@@ -47,6 +48,7 @@ const mockJobs = [
       'Experience with user research',
     ],
     applicantCount: 124,
+    applyUrl: 'https://www.figma.com/careers',
     activityEvents: [
       { type: 'posted', date: daysAgo(8), label: 'Job posted' },
       { type: 'recruiter_online', date: daysAgo(3), label: 'Recruiter active on platform' },
@@ -71,6 +73,7 @@ const mockJobs = [
       'Database optimization experience',
     ],
     applicantCount: 203,
+    applyUrl: 'https://www.notion.so/careers',
     activityEvents: [
       { type: 'posted', date: daysAgo(30), label: 'Job posted' },
       { type: 'recruiter_viewed', date: daysAgo(18), label: 'Recruiter viewed applications' },
@@ -93,6 +96,7 @@ const mockJobs = [
       'A/B testing expertise',
     ],
     applicantCount: 178,
+    applyUrl: 'https://careers.airbnb.com',
     activityEvents: [
       { type: 'posted', date: daysAgo(25), label: 'Job posted' },
       { type: 'description_updated', date: daysAgo(15), label: 'Job description updated' },
@@ -116,6 +120,7 @@ const mockJobs = [
       'Security-first mindset',
     ],
     applicantCount: 342,
+    applyUrl: 'https://www.coinbase.com/careers',
     activityEvents: [
       { type: 'posted', date: daysAgo(55), label: 'Job posted' },
       { type: 'recruiter_viewed', date: daysAgo(40), label: 'Recruiter viewed applications' },
@@ -137,6 +142,7 @@ const mockJobs = [
       'Fintech experience a plus',
     ],
     applicantCount: 289,
+    applyUrl: 'https://careers.robinhood.com',
     activityEvents: [
       { type: 'posted', date: daysAgo(62), label: 'Job posted' },
       { type: 'recruiter_online', date: daysAgo(45), label: 'Recruiter active on platform' },
@@ -159,6 +165,7 @@ const mockJobs = [
       'Strong communication skills',
     ],
     applicantCount: 410,
+    applyUrl: 'https://careers.doordash.com',
     activityEvents: [
       { type: 'posted', date: daysAgo(48), label: 'Job posted' },
     ],
@@ -181,6 +188,7 @@ const mockJobs = [
       'Go, Java, or C++ proficiency',
     ],
     applicantCount: 156,
+    applyUrl: 'https://www.datadoghq.com/careers',
     activityEvents: [
       { type: 'posted', date: daysAgo(70), label: 'Job posted' },
       { type: 'recruiter_viewed', date: daysAgo(50), label: 'Recruiter viewed applications' },

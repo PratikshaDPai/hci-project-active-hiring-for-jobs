@@ -81,6 +81,18 @@ export default function JobDetail({ job, onBack }) {
           ))}
         </ul>
       </div>
+
+      {/* Apply button */}
+      <div className="flex justify-center pb-4">
+        <a
+          href={job.applyUrl ?? '#'}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+        >
+          Apply Now
+        </a>
+      </div>
     </div>
   )
 }
